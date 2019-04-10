@@ -1,0 +1,633 @@
+"YEAR"	"FIELD"	"TYPE"	"RENAME_TO"	"MANDATORY"	"CONVERT_TO"
+1999	"NU_ANO"	"category"	"YEAR"		
+1999	"TP_SEXO"	"category"			
+1999	"CODMUNIC_INSC"	"object"			
+1999	"DS_CIDADE"				
+1999	"IN_PRESENCA"	"int"		1	
+1999	"VL_PERC_COMP1"			1	
+1999	"VL_PERC_COMP2"			1	
+1999	"VL_PERC_COMP3"			1	
+1999	"VL_PERC_COMP4"			1	
+1999	"VL_PERC_COMP5"			1	
+1999	"NU_NOTA_OBJETIVA"		"MC_SCORE"	1	
+1999	"IN_SITUACAO"	"category"		1	
+1999	"NU_NOTA_REDACAO_COMP1"			1	
+1999	"NU_NOTA_REDACAO_COMP2"			1	
+1999	"NU_NOTA_REDACAO_COMP3"			1	
+1999	"NU_NOTA_REDACAO_COMP4"			1	
+1999	"NU_NOTA_REDACAO_COMP5"			1	
+1999	"NU_NOTA_GLOBAL_REDACAO"		"ESSAY_SCORE"	1	
+1999	"IN_QSE"				
+1999	"Q3"	"category"	"SKIN_COLOR"		"{'A': 'white', 'B': 'biracial', 'C': 'black', 'D': 'asian', 'E': 'indian'}"
+1999	"Q4"	"category"	"MARITAL_STATUS"		
+1999	"Q16"	"category"	"QTY_LIVING_TOGETHER"		
+1999	"Q17"	"category"	"QTY_CHILDREN"		
+1999	"Q18"	"category"	"FATHER_SCHOOLING"		"{'A': 'A-didnt_go_to_school', 'B': 'B-primary_education', 'C': 'C-elementary_school', 'D': 'D-incomplete_secondary_school', 'E': 'E-complete_secondary_school', 'F': 'F-incomplete_higher_education', 'G': 'G-complete_higher_education', 'H': 'H-postgraduate', 'I': 'I-unknown'}"
+1999	"Q19"	"category"	"MOTHER_SCHOOLING"		"{'A': 'A-didnt_go_to_school', 'B': 'B-primary_education', 'C': 'C-elementary_school', 'D': 'D-incomplete_secondary_school', 'E': 'E-complete_secondary_school', 'F': 'F-incomplete_higher_education', 'G': 'G-complete_higher_education', 'H': 'H-postgraduate', 'I': 'I-unknown'}"
+1999	"Q52"	"category"	"ELEMENTARY_SCHOOL"	1	
+1999	"Q55"	"category"	"SECONDARY_SCHOOL_1"	1	"{'A': 'daytime', 'B': 'both', 'C': 'nighttime'}"
+1999	"Q56"	"category"	"SECONDARY_SCHOOL_2"	1	"{'A': 'public', 'B': 'both', 'C': 'private'}"
+1999	"Q57"	"category"	"SECONDARY_SCHOOL_3"	1	"{'A': 'normal', 'B': 'adult'}"
+1999	"Q58"	"category"	"STUDIED_FOREIGN_LANGUAGE"		
+1999	"Q59"	"category"	"STUDIED_COMPUTING"		
+1999	"Q62"	"category"	"STUDIED_MUSICAL_INSTRUMENT"		
+1999	"Q63"	"category"	"PRACTICED_SPORT"		
+1999	"Q61"	"category"	"STUDIED_ARTS"		
+1999	"Q118"	"category"	"STUDIED_PREP_COURSE"		
+1999	"Q65"	"category"	"READINGS_1"	1	
+1999	"Q66"	"category"	"READINGS_2"	1	
+1999	"Q67"	"category"	"READINGS_3"	1	
+1999	"Q68"	"category"	"READINGS_4"	1	
+1999	"Q69"	"category"	"READINGS_5"	1	
+1999	"Q85"	"category"	"MAT_OF_INTEREST_1"		
+1999	"Q86"	"category"	"MAT_OF_INTEREST_2"		
+1999	"Q87"	"category"	"MAT_OF_INTEREST_3"		
+1999	"Q88"	"category"	"MAT_OF_INTEREST_4"		
+1999	"Q89"	"category"	"MAT_OF_INTEREST_5"		
+1999	"Q90"	"category"	"MAT_OF_INTEREST_6"		
+1999	"Q91"	"category"	"MAT_OF_INTEREST_7"		
+1999	"Q92"	"category"	"MAT_OF_INTEREST_8"		
+1999	"Q93"	"category"	"MAT_OF_INTEREST_9"		
+1999	"Q94"	"category"	"MAT_OF_INTEREST_10"		
+1999	"Q95"	"category"	"MAT_OF_INTEREST_11"		
+1999	"Q102"	"category"	"PERSONAL_VALUE_1"		
+1999	"Q103"	"category"	"PERSONAL_VALUE_2"		
+1999	"Q104"	"category"	"PERSONAL_VALUE_3"		
+1999	"Q105"	"category"	"PERSONAL_VALUE_4"		
+1999	"Q106"	"category"	"PERSONAL_VALUE_5"		
+1999	"Q107"	"category"	"PERSONAL_VALUE_6"		
+1999	"Q108"	"category"	"PERSONAL_VALUE_7"		
+1999	"Q109"	"category"	"PERSONAL_VALUE_8"		
+1999	"Q110"	"category"	"PERSONAL_VALUE_9"		
+1999	"Q111"	"category"	"PERSONAL_VALUE_10"		
+1999	"Q112"	"category"	"PERSONAL_VALUE_11"		
+1999	"Q113"	"category"	"PERSONAL_VALUE_12"		
+1999	"Q41"	"category"	"WORKED_WHILE_STUDYING"	1	
+1999	"Q42"	"category"	"WORKING_HOURS_PER_WEEK"	1	
+1999	"Q101"	"category"	"CURRENTY_PREP_COURSE"	1	"{'A': 'yes', 'B': 'no'}"
+1999	"Q103"	"category"	"CURRENTLY_FOREIGN_LANGUAGE"		
+1999	"Q104"	"category"	"CURRENTLY_COMPUTING"		
+1999	"Q113"	"category"	"WORKING_NOW"	1	
+1999	"Q24"	"category"	"FAMILY_INCOME"	1	"{'A': 'A_1_MW_or_less', 'B': 'B_1_to_2_MW', 'C': 'C_2_to_5_MW', 'D': 'D_5_to_10_MW', 'E': 'E_10_to_30_MW', 'F': 'F_30_to_50_MW', 'G': 'G_50+_MW', 'H': 'H_no_income'}"
+1999	"Q39"	"category"	"HAS_CLEANING_PERSON"		
+1999	"Q37"	"category"	"TAP_WATER"	1	"{'A': 'yes', 'B': 'no'}"
+1999	"Q38"	"category"	"ELECTRIFIED_HOME"	1	"{'A': 'yes', 'B': 'no'}"
+2000	"NU_ANO"	"category"	"YEAR"		
+2000	"TP_SEXO"	"category"			
+2000	"CODMUNIC_INSC"	"object"			
+2000	"DS_CIDADE"				
+2000	"IN_PRESENCA"	"int"		1	
+2000	"VL_PERC_COMP1"			1	
+2000	"VL_PERC_COMP2"			1	
+2000	"VL_PERC_COMP3"			1	
+2000	"VL_PERC_COMP4"			1	
+2000	"VL_PERC_COMP5"			1	
+2000	"NU_NOTA_OBJETIVA"		"MC_SCORE"	1	
+2000	"IN_SITUACAO"	"category"		1	
+2000	"NU_NOTA_REDACAO_COMP1"			1	
+2000	"NU_NOTA_REDACAO_COMP2"			1	
+2000	"NU_NOTA_REDACAO_COMP3"			1	
+2000	"NU_NOTA_REDACAO_COMP4"			1	
+2000	"NU_NOTA_REDACAO_COMP5"			1	
+2000	"NU_NOTA_GLOBAL_REDACAO"		"ESSAY_SCORE"	1	
+2000	"IN_QSE"				
+2000	"Q3"	"category"	"SKIN_COLOR"		"{'A': 'white', 'B': 'biracial', 'C': 'black', 'D': 'asian', 'E': 'indian'}"
+2000	"Q4"	"category"	"MARITAL_STATUS"		
+2000	"Q15"	"category"	"QTY_LIVING_TOGETHER"		
+2000	"Q16"	"category"	"QTY_CHILDREN"		
+2000	"Q17"	"category"	"FATHER_SCHOOLING"		"{'A': 'A-didnt_go_to_school', 'B': 'B-primary_education', 'C': 'C-elementary_school', 'D': 'D-incomplete_secondary_school', 'E': 'E-complete_secondary_school', 'F': 'F-incomplete_higher_education', 'G': 'G-complete_higher_education', 'H': 'H-postgraduate', 'I': 'I-unknown'}"
+2000	"Q18"	"category"	"MOTHER_SCHOOLING"		"{'A': 'A-didnt_go_to_school', 'B': 'B-primary_education', 'C': 'C-elementary_school', 'D': 'D-incomplete_secondary_school', 'E': 'E-complete_secondary_school', 'F': 'F-incomplete_higher_education', 'G': 'G-complete_higher_education', 'H': 'H-postgraduate', 'I': 'I-unknown'}"
+2000	"Q50"	"category"	"ELEMENTARY_SCHOOL"	1	
+2000	"Q53"	"category"	"SECONDARY_SCHOOL_1"	1	"{'A': 'daytime', 'B': 'both', 'C': 'nighttime'}"
+2000	"Q54"	"category"	"SECONDARY_SCHOOL_2"	1	"{'A': 'public', 'B': 'both', 'C': 'private'}"
+2000	"Q55"	"category"	"SECONDARY_SCHOOL_3"	1	"{'A': 'normal', 'B': 'adult'}"
+2000	"Q56"	"category"	"STUDIED_FOREIGN_LANGUAGE"		
+2000	"Q57"	"category"	"STUDIED_COMPUTING"		
+2000	"Q60"	"category"	"STUDIED_MUSICAL_INSTRUMENT"		
+2000	"Q61"	"category"	"PRACTICED_SPORT"		
+2000	"Q59"	"category"	"STUDIED_ARTS"		
+2000	"Q58"	"category"	"STUDIED_PREP_COURSE"	1	
+2000	"Q63"	"category"	"READINGS_1"	1	
+2000	"Q64"	"category"	"READINGS_2"	1	
+2000	"Q65"	"category"	"READINGS_3"	1	
+2000	"Q66"	"category"	"READINGS_4"	1	
+2000	"Q67"	"category"	"READINGS_5"	1	
+2000	"Q83"	"category"	"MAT_OF_INTEREST_1"		
+2000	"Q84"	"category"	"MAT_OF_INTEREST_2"		
+2000	"Q85"	"category"	"MAT_OF_INTEREST_3"		
+2000	"Q86"	"category"	"MAT_OF_INTEREST_4"		
+2000	"Q87"	"category"	"MAT_OF_INTEREST_5"		
+2000	"Q88"	"category"	"MAT_OF_INTEREST_6"		
+2000	"Q89"	"category"	"MAT_OF_INTEREST_7"		
+2000	"Q90"	"category"	"MAT_OF_INTEREST_8"		
+2000	"Q91"	"category"	"MAT_OF_INTEREST_9"		
+2000	"Q92"	"category"	"MAT_OF_INTEREST_10"		
+2000	"Q93"	"category"	"MAT_OF_INTEREST_11"		
+2000	"Q102"	"category"	"PERSONAL_VALUE_1"		
+2000	"Q103"	"category"	"PERSONAL_VALUE_2"		
+2000	"Q104"	"category"	"PERSONAL_VALUE_3"		
+2000	"Q105"	"category"	"PERSONAL_VALUE_4"		
+2000	"Q106"	"category"	"PERSONAL_VALUE_5"		
+2000	"Q107"	"category"	"PERSONAL_VALUE_6"		
+2000	"Q108"	"category"	"PERSONAL_VALUE_7"		
+2000	"Q109"	"category"	"PERSONAL_VALUE_8"		
+2000	"Q110"	"category"	"PERSONAL_VALUE_9"		
+2000	"Q111"	"category"	"PERSONAL_VALUE_10"		
+2000	"Q112"	"category"	"PERSONAL_VALUE_11"		
+2000	"Q113"	"category"	"PERSONAL_VALUE_12"		
+2000	"Q39"	"category"	"WORKED_WHILE_STUDYING"	1	
+2000	"Q40"	"category"	"WORKING_HOURS_PER_WEEK"	1	
+2000	"Q116"	"category"	"CURRENTY_PREP_COURSE"	1	"{'A': 'yes', 'B': 'no'}"
+2000	"Q118"	"category"	"CURRENTLY_FOREIGN_LANGUAGE"		
+2000	"Q119"	"category"	"CURRENTLY_COMPUTING"		
+2000	"Q43"	"category"	"WORKING_NOW"	1	
+2000	"Q23"	"category"	"FAMILY_INCOME"	1	"{'A': 'A_1_MW_or_less', 'B': 'B_1_to_2_MW', 'C': 'C_2_to_5_MW', 'D': 'D_5_to_10_MW', 'E': 'E_10_to_30_MW', 'F': 'F_30_to_50_MW', 'G': 'G_50+_MW', 'H': 'H_no_income'}"
+2000	"Q37"	"category"	"HAS_CLEANING_PERSON"		
+2000	"Q35"	"category"	"TAP_WATER"	1	"{'A': 'yes', 'B': 'no'}"
+2000	"Q36"	"category"	"ELECTRIFIED_HOME"	1	"{'A': 'yes', 'B': 'no'}"
+2001	"NU_ANO"	"category"	"YEAR"		
+2001	"TP_SEXO"	"category"			
+2001	"CODMUNIC_INSC"	"object"			
+2001	"DS_CIDADE"				
+2001	"IN_PRESENCA"	"int"		1	
+2001	"VL_PERC_COMP1"			1	
+2001	"VL_PERC_COMP2"			1	
+2001	"VL_PERC_COMP3"			1	
+2001	"VL_PERC_COMP4"			1	
+2001	"VL_PERC_COMP5"			1	
+2001	"NU_NOTA_OBJETIVA"		"MC_SCORE"	1	
+2001	"IN_SITUACAO"	"category"		1	
+2001	"NU_NOTA_REDACAO_COMP1"			1	
+2001	"NU_NOTA_REDACAO_COMP2"			1	
+2001	"NU_NOTA_REDACAO_COMP3"			1	
+2001	"NU_NOTA_REDACAO_COMP4"			1	
+2001	"NU_NOTA_REDACAO_COMP5"			1	
+2001	"NU_NOTA_GLOBAL_REDACAO"		"ESSAY_SCORE"	1	
+2001	"IN_QSE"				
+2001	"Q3"	"category"	"SKIN_COLOR"	1	"{'A': 'white', 'B': 'biracial', 'C': 'black', 'D': 'asian', 'E': 'indian'}"
+2001	"Q4"	"category"	"MARITAL_STATUS"	1	
+2001	"Q7"	"category"	"QTY_LIVING_TOGETHER"	1	
+2001	"Q8"	"category"	"QTY_CHILDREN"	1	
+2001	"Q9"	"category"	"FATHER_SCHOOLING"	1	"{'A': 'A-didnt_go_to_school', 'B': 'B-primary_education', 'C': 'C-elementary_school', 'D': 'D-incomplete_secondary_school', 'E': 'E-complete_secondary_school', 'F': 'F-incomplete_higher_education', 'G': 'G-complete_higher_education', 'H': 'H-postgraduate', 'I': 'I-unknown'}"
+2001	"Q10"	"category"	"MOTHER_SCHOOLING"	1	"{'A': 'A-didnt_go_to_school', 'B': 'B-primary_education', 'C': 'C-elementary_school', 'D': 'D-incomplete_secondary_school', 'E': 'E-complete_secondary_school', 'F': 'F-incomplete_higher_education', 'G': 'G-complete_higher_education', 'H': 'H-postgraduate', 'I': 'I-unknown'}"
+2001	"Q36"	"category"	"ELEMENTARY_SCHOOL"	1	
+2001	"Q39"	"category"	"SECONDARY_SCHOOL_1"	1	"{'A': 'daytime', 'B': 'both', 'C': 'nighttime'}"
+2001	"Q40"	"category"	"SECONDARY_SCHOOL_2"	1	"{'A': 'public', 'B': 'both', 'C': 'private'}"
+2001	"Q41"	"category"	"SECONDARY_SCHOOL_3"	1	"{'A': 'normal', 'B': 'adult', 'C': 'normal'}"
+2001	"Q42_1"	"category"	"STUDIED_FOREIGN_LANGUAGE"	1	
+2001	"Q42_2"	"category"	"STUDIED_COMPUTING"	1	
+2001	"Q42_4"	"category"	"STUDIED_MUSIC_OR_ARTS"	1	
+2001	"Q42_5"	"category"	"PRACTICED_SPORT"	1	
+2001	"Q42_3"	"category"	"STUDIED_PREP_COURSE"	1	
+2001	"Q43_1"	"category"	"READINGS_1"	1	
+2001	"Q43_2"	"category"	"READINGS_2"	1	
+2001	"Q43_3"	"category"	"READINGS_3"	1	
+2001	"Q43_4"	"category"	"READINGS_4"	1	
+2001	"Q43_5"	"category"	"READINGS_5"	1	
+2001	"Q60_1"	"category"	"MAT_OF_INTEREST_1"		
+2001	"Q60_2"	"category"	"MAT_OF_INTEREST_2"		
+2001	"Q60_3"	"category"	"MAT_OF_INTEREST_3"		
+2001	"Q60_4"	"category"	"MAT_OF_INTEREST_4"		
+2001	"Q60_5"	"category"	"MAT_OF_INTEREST_5"		
+2001	"Q60_6"	"category"	"MAT_OF_INTEREST_6"		
+2001	"Q60_7"	"category"	"MAT_OF_INTEREST_7"		
+2001	"Q60_8"	"category"	"MAT_OF_INTEREST_8"		
+2001	"Q60_9"	"category"	"MAT_OF_INTEREST_9"		
+2001	"Q60_10"	"category"	"MAT_OF_INTEREST_10"		
+2001	"Q65_1"	"category"	"PERSONAL_VALUE_1"		
+2001	"Q65_2"	"category"	"PERSONAL_VALUE_2"		
+2001	"Q65_3"	"category"	"PERSONAL_VALUE_3"		
+2001	"Q65_4"	"category"	"PERSONAL_VALUE_4"		
+2001	"Q65_5"	"category"	"PERSONAL_VALUE_5"		
+2001	"Q65_6"	"category"	"PERSONAL_VALUE_6"		
+2001	"Q65_7"	"category"	"PERSONAL_VALUE_7"		
+2001	"Q65_8"	"category"	"PERSONAL_VALUE_8"		
+2001	"Q65_9"	"category"	"PERSONAL_VALUE_9"		
+2001	"Q65_10"	"category"	"PERSONAL_VALUE_10"		
+2001	"Q65_11"	"category"	"PERSONAL_VALUE_11"		
+2001	"Q65_12"	"category"	"PERSONAL_VALUE_12"		
+2001	"Q21"	"category"	"WORKED_WHILE_STUDYING"	1	
+2001	"Q22"	"category"	"WORKING_HOURS_PER_WEEK"	1	
+2001	"Q73_2"	"category"	"CURRENTY_PREP_COURSE"	1	"{'A': 'yes', 'B': 'no'}"
+2001	"Q73_4"	"category"	"CURRENTLY_FOREIGN_LANGUAGE"	1	
+2001	"Q73_5"	"category"	"CURRENTLY_COMPUTING"	1	
+2001	"Q25"	"category"	"WORKING_NOW"	1	
+2001	"Q15"	"category"	"FAMILY_INCOME"	1	"{'A': 'A_1_MW_or_less', 'B': 'B_1_to_2_MW', 'C': 'C_2_to_5_MW', 'D': 'D_5_to_10_MW', 'E': 'E_10_to_30_MW', 'F': 'F_30_to_50_MW', 'G': 'G_50+_MW', 'H': 'H_no_income'}"
+2001	"Q17_5"	"category"	"HAS_CLEANING_PERSON"	1	
+2001	"Q17_3"	"category"	"TAP_WATER"	1	"{'A': 'yes', 'B': 'no'}"
+2001	"Q17_4"	"category"	"ELECTRIFIED_HOME"	1	"{'A': 'yes', 'B': 'no'}"
+2002	"NU_ANO"	"category"	"YEAR"		
+2002	"TP_SEXO"	"category"			
+2002	"CODMUNIC_INSC"	"object"			
+2002	"DS_CIDADE"				
+2002	"IN_PRESENCA"	"int"		1	
+2002	"VL_PERC_COMP1"			1	
+2002	"VL_PERC_COMP2"			1	
+2002	"VL_PERC_COMP3"			1	
+2002	"VL_PERC_COMP4"			1	
+2002	"VL_PERC_COMP5"			1	
+2002	"NU_NOTA_OBJETIVA"		"MC_SCORE"	1	
+2002	"IN_SITUACAO"	"category"		1	
+2002	"NU_NOTA_REDACAO_COMP1"			1	
+2002	"NU_NOTA_REDACAO_COMP2"			1	
+2002	"NU_NOTA_REDACAO_COMP3"			1	
+2002	"NU_NOTA_REDACAO_COMP4"			1	
+2002	"NU_NOTA_REDACAO_COMP5"			1	
+2002	"NU_NOTA_GLOBAL_REDACAO"		"ESSAY_SCORE"	1	
+2002	"IN_QSE"				
+2002	"Q3"	"category"	"SKIN_COLOR"	1	"{'A': 'white', 'B': 'biracial', 'C': 'black', 'D': 'asian', 'E': 'indian'}"
+2002	"Q4"	"category"	"MARITAL_STATUS"	1	
+2002	"Q7"	"category"	"QTY_LIVING_TOGETHER"	1	
+2002	"Q8"	"category"	"QTY_CHILDREN"	1	
+2002	"Q9"	"category"	"FATHER_SCHOOLING"	1	"{'A': 'A-didnt_go_to_school', 'B': 'B-primary_education', 'C': 'C-elementary_school', 'D': 'D-incomplete_secondary_school', 'E': 'E-complete_secondary_school', 'F': 'F-incomplete_higher_education', 'G': 'G-complete_higher_education', 'H': 'H-postgraduate', 'I': 'I-unknown'}"
+2002	"Q10"	"category"	"MOTHER_SCHOOLING"	1	"{'A': 'A-didnt_go_to_school', 'B': 'B-primary_education', 'C': 'C-elementary_school', 'D': 'D-incomplete_secondary_school', 'E': 'E-complete_secondary_school', 'F': 'F-incomplete_higher_education', 'G': 'G-complete_higher_education', 'H': 'H-postgraduate', 'I': 'I-unknown'}"
+2002	"Q36"	"category"	"ELEMENTARY_SCHOOL"	1	
+2002	"Q39"	"category"	"SECONDARY_SCHOOL_1"	1	"{'A': 'daytime', 'B': 'both', 'C': 'nighttime'}"
+2002	"Q40"	"category"	"SECONDARY_SCHOOL_2"	1	"{'A': 'public', 'B': 'both', 'C': 'private'}"
+2002	"Q41"	"category"	"SECONDARY_SCHOOL_3"	1	"{'A': 'normal', 'B': 'adult', 'C': 'normal'}"
+2002	"Q42_1"	"category"	"STUDIED_FOREIGN_LANGUAGE"	1	
+2002	"Q42_2"	"category"	"STUDIED_COMPUTING"	1	
+2002	"Q42_4"	"category"	"STUDIED_MUSIC_OR_ARTS"	1	
+2002	"Q42_5"	"category"	"PRACTICED_SPORT"	1	
+2002	"Q42_3"	"category"	"STUDIED_PREP_COURSE"	1	
+2002	"Q43_1"	"category"	"READINGS_1"	1	
+2002	"Q43_2"	"category"	"READINGS_2"	1	
+2002	"Q43_3"	"category"	"READINGS_3"	1	
+2002	"Q43_4"	"category"	"READINGS_4"	1	
+2002	"Q43_5"	"category"	"READINGS_5"	1	
+2002	"Q58_1"	"category"	"MAT_OF_INTEREST_1"		
+2002	"Q58_2"	"category"	"MAT_OF_INTEREST_2"		
+2002	"Q58_3"	"category"	"MAT_OF_INTEREST_3"		
+2002	"Q58_4"	"category"	"MAT_OF_INTEREST_4"		
+2002	"Q58_5"	"category"	"MAT_OF_INTEREST_5"		
+2002	"Q58_6"	"category"	"MAT_OF_INTEREST_6"		
+2002	"Q58_7"	"category"	"MAT_OF_INTEREST_7"		
+2002	"Q58_8"	"category"	"MAT_OF_INTEREST_8"		
+2002	"Q58_9"	"category"	"MAT_OF_INTEREST_9"		
+2002	"Q58_10"	"category"	"MAT_OF_INTEREST_10"		
+2002	"Q21"	"category"	"WORKED_WHILE_STUDYING"	1	
+2002	"Q22"	"category"	"WORKING_HOURS_PER_WEEK"	1	
+2002	"Q42_3"	"category"	"CURRENTY_PREP_COURSE"	1	"{'A': 'yes', 'B': 'no'}"
+2002	"Q71_4"	"category"	"CURRENTLY_FOREIGN_LANGUAGE"	1	
+2002	"Q71_5"	"category"	"CURRENTLY_COMPUTING"	1	
+2002	"Q25"	"category"	"WORKING_NOW"	1	
+2002	"Q15"	"category"	"FAMILY_INCOME"	1	"{'A': 'A_1_MW_or_less', 'B': 'B_1_to_2_MW', 'C': 'C_2_to_5_MW', 'D': 'D_5_to_10_MW', 'E': 'E_10_to_30_MW', 'F': 'F_30_to_50_MW', 'G': 'G_50+_MW', 'H': 'H_no_income'}"
+2002	"Q17_5"	"category"	"HAS_CLEANING_PERSON"	1	
+2002	"Q17_3"	"category"	"TAP_WATER"	1	"{'A': 'yes', 'B': 'no'}"
+2002	"Q17_4"	"category"	"ELECTRIFIED_HOME"	1	"{'A': 'yes', 'B': 'no'}"
+2003	"NU_ANO"	"category"	"YEAR"		
+2003	"TP_SEXO"	"category"			
+2003	"CODMUNIC_INSC"	"object"			
+2003	"DS_CIDADE"				
+2003	"IN_PRESENCA"	"int"		1	
+2003	"VL_PERC_COMP1"			1	
+2003	"VL_PERC_COMP2"			1	
+2003	"VL_PERC_COMP3"			1	
+2003	"VL_PERC_COMP4"			1	
+2003	"VL_PERC_COMP5"			1	
+2003	"NU_NOTA_OBJETIVA"		"MC_SCORE"	1	
+2003	"IN_SITUACAO"	"category"		1	
+2003	"NU_NOTA_REDACAO_COMP1"			1	
+2003	"NU_NOTA_REDACAO_COMP2"			1	
+2003	"NU_NOTA_REDACAO_COMP3"			1	
+2003	"NU_NOTA_REDACAO_COMP4"			1	
+2003	"NU_NOTA_REDACAO_COMP5"			1	
+2003	"NU_NOTA_GLOBAL_REDACAO"		"ESSAY_SCORE"	1	
+2003	"IN_QSE"				
+2003	"Q3"	"category"	"SKIN_COLOR"	1	"{'A': 'white', 'B': 'biracial', 'C': 'black', 'D': 'asian', 'E': 'indian'}"
+2003	"Q4"	"category"	"MARITAL_STATUS"	1	
+2003	"Q14"	"category"	"QTY_LIVING_TOGETHER"	1	
+2003	"Q15"	"category"	"QTY_CHILDREN"	1	
+2003	"Q16"	"category"	"FATHER_SCHOOLING"	1	"{'A': 'A-didnt_go_to_school', 'B': 'B-primary_education', 'C': 'C-elementary_school', 'D': 'D-incomplete_secondary_school', 'E': 'E-complete_secondary_school', 'F': 'F-incomplete_higher_education', 'G': 'G-complete_higher_education', 'H': 'H-postgraduate', 'I': 'I-unknown'}"
+2003	"Q17"	"category"	"MOTHER_SCHOOLING"	1	"{'A': 'A-didnt_go_to_school', 'B': 'B-primary_education', 'C': 'C-elementary_school', 'D': 'D-incomplete_secondary_school', 'E': 'E-complete_secondary_school', 'F': 'F-incomplete_higher_education', 'G': 'G-complete_higher_education', 'H': 'H-postgraduate', 'I': 'I-unknown'}"
+2003	"Q71"	"category"	"ELEMENTARY_SCHOOL"	1	
+2003	"Q74"	"category"	"SECONDARY_SCHOOL_1"	1	"{'A': 'daytime', 'B': 'both', 'C': 'nighttime', 'D': 'both'}"
+2003	"Q75"	"category"	"SECONDARY_SCHOOL_2"	1	"{'A': 'public', 'B': 'both', 'C': 'private', 'D': 'both'}"
+2003	"Q76"	"category"	"SECONDARY_SCHOOL_3"	1	"{'A': 'normal', 'B': 'adult', 'C': 'normal'}"
+2003	"Q77"	"category"	"STUDIED_FOREIGN_LANGUAGE"	1	
+2003	"Q78"	"category"	"STUDIED_COMPUTING"	1	
+2003	"Q80"	"category"	"STUDIED_MUSIC_OR_ARTS"	1	
+2003	"Q81"	"category"	"PRACTICED_SPORT"	1	
+2003	"Q79"	"category"	"STUDIED_PREP_COURSE"	1	
+2003	"Q82"	"category"	"READINGS_1"	1	
+2003	"Q83"	"category"	"READINGS_2"	1	
+2003	"Q84"	"category"	"READINGS_3"	1	
+2003	"Q85"	"category"	"READINGS_4"	1	
+2003	"Q85"	"category"	"READINGS_5"	1	
+2003	"Q143"	"category"	"MAT_OF_INTEREST_1"		
+2003	"Q144"	"category"	"MAT_OF_INTEREST_2"		
+2003	"Q145"	"category"	"MAT_OF_INTEREST_3"		
+2003	"Q146"	"category"	"MAT_OF_INTEREST_4"		
+2003	"Q147"	"category"	"MAT_OF_INTEREST_5"		
+2003	"Q148"	"category"	"MAT_OF_INTEREST_6"		
+2003	"Q149"	"category"	"MAT_OF_INTEREST_7"		
+2003	"Q150"	"category"	"MAT_OF_INTEREST_8"		
+2003	"Q151"	"category"	"MAT_OF_INTEREST_9"		
+2003	"Q152"	"category"	"MAT_OF_INTEREST_10"		
+2003	"Q41"	"category"	"WORKED_WHILE_STUDYING"	1	
+2003	"Q42"	"category"	"WORKING_HOURS_PER_WEEK"	1	
+2003	"Q171"	"category"	"CURRENTY_PREP_COURSE"	1	"{'A': 'yes', 'B': 'no'}"
+2003	"Q173"	"category"	"CURRENTLY_FOREIGN_LANGUAGE"	1	
+2003	"Q174"	"category"	"CURRENTLY_COMPUTING"	1	
+2003	"Q45"	"category"	"WORKING_NOW"	1	
+2003	"Q22"	"category"	"FAMILY_INCOME"	1	"{'A': 'A_1_MW_or_less', 'B': 'B_1_to_2_MW', 'C': 'C_2_to_5_MW', 'D': 'D_5_to_10_MW', 'E': 'E_10_to_30_MW', 'F': 'F_30_to_50_MW', 'G': 'G_50+_MW', 'H': 'H_no_income'}"
+2003	"Q36"	"category"	"TAP_WATER"	1	"{'A': 'yes', 'B': 'no'}"
+2003	"Q37"	"category"	"ELECTRIFIED_HOME"	1	"{'A': 'yes', 'B': 'no'}"
+2004	"NU_ANO"	"category"	"YEAR"		
+2004	"TP_SEXO"	"category"		1	
+2004	"CODMUNIC_INSC"	"object"			
+2004	"DS_CIDADE"				
+2004	"IN_PRESENCA"	"int"		1	
+2004	"VL_PERC_COMP1"			1	
+2004	"VL_PERC_COMP2"			1	
+2004	"VL_PERC_COMP3"			1	
+2004	"VL_PERC_COMP4"			1	
+2004	"VL_PERC_COMP5"			1	
+2004	"NU_NOTA_OBJETIVA"		"MC_SCORE"	1	
+2004	"IN_SITUACAO"	"category"		1	
+2004	"NU_NOTA_REDACAO_COMP1"			1	
+2004	"NU_NOTA_REDACAO_COMP2"			1	
+2004	"NU_NOTA_REDACAO_COMP3"			1	
+2004	"NU_NOTA_REDACAO_COMP4"			1	
+2004	"NU_NOTA_REDACAO_COMP5"			1	
+2004	"NU_NOTA_GLOBAL_REDACAO"		"ESSAY_SCORE"	1	
+2004	"IN_QSE"				
+2004	"Q3"	"category"	"SKIN_COLOR"	1	"{'A': 'white', 'B': 'biracial', 'C': 'black', 'D': 'asian', 'E': 'indian'}"
+2004	"Q4"	"category"	"MARITAL_STATUS"	1	
+2004	"Q14"	"category"	"QTY_LIVING_TOGETHER"	1	
+2004	"Q15"	"category"	"QTY_CHILDREN"	1	
+2004	"Q16"	"category"	"FATHER_SCHOOLING"	1	"{'A': 'A-didnt_go_to_school', 'B': 'B-primary_education', 'C': 'C-elementary_school', 'D': 'D-incomplete_secondary_school', 'E': 'E-complete_secondary_school', 'F': 'F-incomplete_higher_education', 'G': 'G-complete_higher_education', 'H': 'H-postgraduate', 'I': 'I-unknown'}"
+2004	"Q17"	"category"	"MOTHER_SCHOOLING"	1	"{'A': 'A-didnt_go_to_school', 'B': 'B-primary_education', 'C': 'C-elementary_school', 'D': 'D-incomplete_secondary_school', 'E': 'E-complete_secondary_school', 'F': 'F-incomplete_higher_education', 'G': 'G-complete_higher_education', 'H': 'H-postgraduate', 'I': 'I-unknown'}"
+2004	"Q71"	"category"	"ELEMENTARY_SCHOOL"	1	
+2004	"Q74"	"category"	"SECONDARY_SCHOOL_1"	1	"{'A': 'daytime', 'B': 'both', 'C': 'nighttime', 'D': 'both'}"
+2004	"Q75"	"category"	"SECONDARY_SCHOOL_2"	1	"{'A': 'public', 'B': 'both', 'C': 'private', 'D': 'both'}"
+2004	"Q76"	"category"	"SECONDARY_SCHOOL_3"	1	"{'A': 'normal', 'B': 'adult', 'C': 'normal'}"
+2004	"Q77"	"category"	"STUDIED_FOREIGN_LANGUAGE"	1	
+2004	"Q78"	"category"	"STUDIED_COMPUTING"	1	
+2004	"Q80"	"category"	"STUDIED_MUSIC_OR_ARTS"	1	
+2004	"Q81"	"category"	"PRACTICED_SPORT"	1	
+2004	"Q79"	"category"	"STUDIED_PREP_COURSE"	1	
+2004	"Q82"	"category"	"READINGS_1"	1	
+2004	"Q83"	"category"	"READINGS_2"	1	
+2004	"Q84"	"category"	"READINGS_3"	1	
+2004	"Q85"	"category"	"READINGS_4"	1	
+2004	"Q85"	"category"	"READINGS_5"	1	
+2004	"Q160"	"category"	"MAT_OF_INTEREST_1"		
+2004	"Q161"	"category"	"MAT_OF_INTEREST_2"		
+2004	"Q162"	"category"	"MAT_OF_INTEREST_3"		
+2004	"Q163"	"category"	"MAT_OF_INTEREST_4"		
+2004	"Q164"	"category"	"MAT_OF_INTEREST_5"		
+2004	"Q165"	"category"	"MAT_OF_INTEREST_6"		
+2004	"Q166"	"category"	"MAT_OF_INTEREST_7"		
+2004	"Q167"	"category"	"MAT_OF_INTEREST_8"		
+2004	"Q168"	"category"	"MAT_OF_INTEREST_9"		
+2004	"Q169"	"category"	"MAT_OF_INTEREST_10"		
+2004	"Q41"	"category"	"WORKED_WHILE_STUDYING"	1	
+2004	"Q42"	"category"	"WORKING_HOURS_PER_WEEK"	1	
+2004	"Q188"	"category"	"CURRENTY_PREP_COURSE"	1	"{'A': 'yes', 'B': 'no'}"
+2004	"Q190"	"category"	"CURRENTLY_FOREIGN_LANGUAGE"	1	
+2004	"Q191"	"category"	"CURRENTLY_COMPUTING"	1	
+2004	"Q45"	"category"	"WORKING_NOW"	1	
+2004	"Q22"	"category"	"FAMILY_INCOME"	1	"{'A': 'A_1_MW_or_less', 'B': 'B_1_to_2_MW', 'C': 'C_2_to_5_MW', 'D': 'D_5_to_10_MW', 'E': 'E_10_to_30_MW', 'F': 'F_30_to_50_MW', 'G': 'G_50+_MW', 'H': 'H_no_income'}"
+2004	"Q36"	"category"	"TAP_WATER"	1	"{'A': 'yes', 'B': 'no'}"
+2004	"Q37"	"category"	"ELECTRIFIED_HOME"	1	"{'A': 'yes', 'B': 'no'}"
+2005	"NU_ANO"	"category"	"YEAR"		
+2005	"TP_SEXO"	"category"			
+2005	"CODMUNIC_INSC"	"object"			
+2005	"DS_CIDADE"				
+2005	"IN_PRESENCA"	"int"		1	
+2005	"VL_PERC_COMP1"			1	
+2005	"VL_PERC_COMP2"			1	
+2005	"VL_PERC_COMP3"			1	
+2005	"VL_PERC_COMP4"			1	
+2005	"VL_PERC_COMP5"			1	
+2005	"NU_NOTA_OBJETIVA"		"MC_SCORE"	1	
+2005	"IN_SITUACAO"			1	
+2005	"NU_NOTA_REDACAO_COMP1"			1	
+2005	"NU_NOTA_REDACAO_COMP2"			1	
+2005	"NU_NOTA_REDACAO_COMP3"			1	
+2005	"NU_NOTA_REDACAO_COMP4"			1	
+2005	"NU_NOTA_REDACAO_COMP5"			1	
+2005	"NU_NOTA_GLOBAL_REDACAO"		"ESSAY_SCORE"	1	
+2005	"IN_QSE"				
+2005	"Q3"	"category"	"SKIN_COLOR"	1	"{'A': 'white', 'B': 'biracial', 'C': 'black', 'D': 'asian', 'E': 'indian'}"
+2005	"Q5"	"category"	"MARITAL_STATUS"	1	
+2005	"Q15"	"category"	"QTY_LIVING_TOGETHER"	1	
+2005	"Q16"	"category"	"QTY_CHILDREN"	1	
+2005	"Q17"	"category"	"FATHER_SCHOOLING"	1	"{'A': 'A-didnt_go_to_school', 'B': 'B-primary_education', 'C': 'C-elementary_school', 'D': 'D-incomplete_secondary_school', 'E': 'E-complete_secondary_school', 'F': 'F-incomplete_higher_education', 'G': 'G-complete_higher_education', 'H': 'H-postgraduate', 'I': 'I-unknown'}"
+2005	"Q18"	"category"	"MOTHER_SCHOOLING"	1	"{'A': 'A-didnt_go_to_school', 'B': 'B-primary_education', 'C': 'C-elementary_school', 'D': 'D-incomplete_secondary_school', 'E': 'E-complete_secondary_school', 'F': 'F-incomplete_higher_education', 'G': 'G-complete_higher_education', 'H': 'H-postgraduate', 'I': 'I-unknown'}"
+2005	"Q73"	"category"	"ELEMENTARY_SCHOOL"	1	
+2005	"Q76"	"category"	"SECONDARY_SCHOOL_1"	1	"{'A': 'daytime', 'B': 'both', 'C': 'nighttime', 'D': 'both'}"
+2005	"Q77"	"category"	"SECONDARY_SCHOOL_2"	1	"{'A': 'public', 'B': 'both', 'C': 'private', 'D': 'both', 'E': 'public', 'F': 'both'}"
+2005	"Q78"	"category"	"SECONDARY_SCHOOL_3"	1	"{'A': 'normal', 'B': 'adult', 'C': 'normal'}"
+2005	"Q79"	"category"	"STUDIED_FOREIGN_LANGUAGE"	1	
+2005	"Q80"	"category"	"STUDIED_COMPUTING"	1	
+2005	"Q82"	"category"	"STUDIED_MUSIC_OR_ARTS"	1	
+2005	"Q83"	"category"	"PRACTICED_SPORT"	1	
+2005	"Q81"	"category"	"STUDIED_PREP_COURSE"	1	
+2005	"Q85"	"category"	"READINGS_1"	1	
+2005	"Q86"	"category"	"READINGS_2"	1	
+2005	"Q87"	"category"	"READINGS_3"	1	
+2005	"Q88"	"category"	"READINGS_4"	1	
+2005	"Q89"	"category"	"READINGS_5"	1	
+2005	"Q175"	"category"	"MAT_OF_INTEREST_1"		
+2005	"Q176"	"category"	"MAT_OF_INTEREST_2"		
+2005	"Q177"	"category"	"MAT_OF_INTEREST_3"		
+2005	"Q178"	"category"	"MAT_OF_INTEREST_4"		
+2005	"Q179"	"category"	"MAT_OF_INTEREST_5"		
+2005	"Q180"	"category"	"MAT_OF_INTEREST_6"		
+2005	"Q181"	"category"	"MAT_OF_INTEREST_7"		
+2005	"Q182"	"category"	"MAT_OF_INTEREST_8"		
+2005	"Q183"	"category"	"MAT_OF_INTEREST_9"		
+2005	"Q184"	"category"	"MAT_OF_INTEREST_10"		
+2005	"Q185"	"category"	"MAT_OF_INTEREST_11"		
+2005	"Q186"	"category"	"MAT_OF_INTEREST_12"		
+2005	"Q43"	"category"	"WORKED_WHILE_STUDYING"	1	
+2005	"Q44"	"category"	"WORKING_HOURS_PER_WEEK"	1	
+2005	"Q206"	"category"	"CURRENTY_PREP_COURSE"	1	"{'A': 'yes', 'B': 'no'}"
+2005	"Q208"	"category"	"CURRENTLY_FOREIGN_LANGUAGE"	1	
+2005	"Q209"	"category"	"CURRENTLY_COMPUTING"	1	
+2005	"Q47"	"category"	"WORKING_NOW"	1	
+2005	"Q23"	"category"	"FAMILY_INCOME"	1	"{'A': 'A_1_MW_or_less', 'B': 'B_1_to_2_MW', 'C': 'C_2_to_5_MW', 'D': 'D_5_to_10_MW', 'E': 'E_10_to_30_MW', 'F': 'F_30_to_50_MW', 'G': 'G_50+_MW', 'H': 'H_no_income'}"
+2005	"Q37"	"category"	"TAP_WATER"	1	"{'A': 'yes', 'B': 'no'}"
+2005	"Q38"	"category"	"ELECTRIFIED_HOME"	1	"{'A': 'yes', 'B': 'no'}"
+2006	"NU_ANO"	"category"	"YEAR"		
+2006	"TP_SEXO"	"category"			
+2006	"CO_MUNICIPIO_RESIDENCIA"	"object"	"CODMUNIC_INSC"		
+2006	"NO_MUNICIPIO_RESIDENCIA"		"DS_CIDADE"		
+2006	"TP_PRESENCA"	"int"	"IN_PRESENCA"	1	
+2006	"VL_PERC_COMP1"			1	
+2006	"VL_PERC_COMP2"			1	
+2006	"VL_PERC_COMP3"			1	
+2006	"VL_PERC_COMP4"			1	
+2006	"VL_PERC_COMP5"			1	
+2006	"NU_NOTA_OBJETIVO"		"MC_SCORE"	1	
+2006	"TP_STATUS_REDACAO"	"category"		1	
+2006	"NU_NOTA_COMP1"		"NU_NOTA_REDACAO_COMP1"	1	
+2006	"NU_NOTA_COMP2"		"NU_NOTA_REDACAO_COMP2"	1	
+2006	"NU_NOTA_COMP3"		"NU_NOTA_REDACAO_COMP3"	1	
+2006	"NU_NOTA_COMP4"		"NU_NOTA_REDACAO_COMP4"	1	
+2006	"NU_NOTA_COMP5"		"NU_NOTA_REDACAO_COMP5"	1	
+2006	"NU_NOTA_REDACAO"		"ESSAY_SCORE"	1	
+2006	"IN_QSE"				
+2006	"Q3"	"category"	"SKIN_COLOR"	1	"{'A': 'white', 'B': 'biracial', 'C': 'black', 'D': 'asian', 'E': 'indian'}"
+2006	"Q5"	"category"	"MARITAL_STATUS"	1	
+2006	"Q15"	"category"	"QTY_LIVING_TOGETHER"	1	
+2006	"Q16"	"category"	"QTY_CHILDREN"	1	
+2006	"Q17"	"category"	"FATHER_SCHOOLING"	1	"{'A': 'A-didnt_go_to_school', 'B': 'B-primary_education', 'C': 'C-elementary_school', 'D': 'D-incomplete_secondary_school', 'E': 'E-complete_secondary_school', 'F': 'F-incomplete_higher_education', 'G': 'G-complete_higher_education', 'H': 'H-postgraduate', 'I': 'I-unknown'}"
+2006	"Q18"	"category"	"MOTHER_SCHOOLING"	1	"{'A': 'A-didnt_go_to_school', 'B': 'B-primary_education', 'C': 'C-elementary_school', 'D': 'D-incomplete_secondary_school', 'E': 'E-complete_secondary_school', 'F': 'F-incomplete_higher_education', 'G': 'G-complete_higher_education', 'H': 'H-postgraduate', 'I': 'I-unknown'}"
+2006	"Q73"	"category"	"ELEMENTARY_SCHOOL"	1	
+2006	"Q76"	"category"	"SECONDARY_SCHOOL_1"	1	"{'A': 'daytime', 'B': 'both', 'C': 'nighttime', 'D': 'both'}"
+2006	"Q77"	"category"	"SECONDARY_SCHOOL_2"	1	"{'A': 'public', 'B': 'both', 'C': 'private', 'D': 'both', 'E': 'public', 'F': 'both'}"
+2006	"Q78"	"category"	"SECONDARY_SCHOOL_3"	1	"{'A': 'normal', 'B': 'adult', 'C': 'normal'}"
+2006	"Q79"	"category"	"STUDIED_FOREIGN_LANGUAGE"	1	
+2006	"Q80"	"category"	"STUDIED_COMPUTING"	1	
+2006	"Q82"	"category"	"STUDIED_MUSIC_OR_ARTS"	1	
+2006	"Q83"	"category"	"PRACTICED_SPORT"	1	
+2006	"Q81"	"category"	"STUDIED_PREP_COURSE"	1	
+2006	"Q85"	"category"	"READINGS_1"	1	
+2006	"Q86"	"category"	"READINGS_2"	1	
+2006	"Q87"	"category"	"READINGS_3"	1	
+2006	"Q88"	"category"	"READINGS_4"	1	
+2006	"Q89"	"category"	"READINGS_5"	1	
+2006	"Q175"	"category"	"MAT_OF_INTEREST_1"		
+2006	"Q176"	"category"	"MAT_OF_INTEREST_2"		
+2006	"Q177"	"category"	"MAT_OF_INTEREST_3"		
+2006	"Q178"	"category"	"MAT_OF_INTEREST_4"		
+2006	"Q179"	"category"	"MAT_OF_INTEREST_5"		
+2006	"Q180"	"category"	"MAT_OF_INTEREST_6"		
+2006	"Q181"	"category"	"MAT_OF_INTEREST_7"		
+2006	"Q182"	"category"	"MAT_OF_INTEREST_8"		
+2006	"Q183"	"category"	"MAT_OF_INTEREST_9"		
+2006	"Q184"	"category"	"MAT_OF_INTEREST_10"		
+2006	"Q185"	"category"	"MAT_OF_INTEREST_11"		
+2006	"Q186"	"category"	"MAT_OF_INTEREST_12"		
+2006	"Q43"	"category"	"WORKED_WHILE_STUDYING"	1	
+2006	"Q44"	"category"	"WORKING_HOURS_PER_WEEK"	1	
+2006	"Q206"	"category"	"CURRENTY_PREP_COURSE"	1	"{'A': 'yes', 'B': 'no'}"
+2006	"Q208"	"category"	"CURRENTLY_FOREIGN_LANGUAGE"	1	
+2006	"Q209"	"category"	"CURRENTLY_COMPUTING"	1	
+2006	"Q47"	"category"	"WORKING_NOW"	1	
+2006	"Q23"	"category"	"FAMILY_INCOME"	1	"{'A': 'A_1_MW_or_less', 'B': 'B_1_to_2_MW', 'C': 'C_2_to_5_MW', 'D': 'D_5_to_10_MW', 'E': 'E_10_to_30_MW', 'F': 'F_30_to_50_MW', 'G': 'G_50+_MW', 'H': 'H_no_income'}"
+2006	"Q37"	"category"	"TAP_WATER"	1	"{'A': 'yes', 'B': 'no'}"
+2006	"Q38"	"category"	"ELECTRIFIED_HOME"	1	"{'A': 'yes', 'B': 'no'}"
+2007	"NU_ANO"	"category"	"YEAR"		
+2007	"TP_SEXO"	"category"			
+2007	"CO_MUNICIPIO_RESIDENCIA"	"object"	"CODMUNIC_INSC"		
+2007	"NO_MUNICIPIO_RESIDENCIA"		"DS_CIDADE"		
+2007	"TP_PRESENCA"	"int"	"IN_PRESENCA"	1	
+2007	"VL_PERC_COMP1"			1	
+2007	"VL_PERC_COMP2"			1	
+2007	"VL_PERC_COMP3"			1	
+2007	"VL_PERC_COMP4"			1	
+2007	"VL_PERC_COMP5"			1	
+2007	"NU_NOTA_OBJETIVA"		"MC_SCORE"	1	
+2007	"TP_STATUS_REDACAO"	"category"	"IN_SITUACAO"	1	
+2007	"NU_NOTA_COMP1"		"NU_NOTA_REDACAO_COMP1"	1	
+2007	"NU_NOTA_COMP2"		"NU_NOTA_REDACAO_COMP2"	1	
+2007	"NU_NOTA_COMP3"		"NU_NOTA_REDACAO_COMP3"	1	
+2007	"NU_NOTA_COMP4"		"NU_NOTA_REDACAO_COMP4"	1	
+2007	"NU_NOTA_COMP5"		"NU_NOTA_REDACAO_COMP5"	1	
+2007	"NU_NOTA_REDACAO"		"ESSAY_SCORE"	1	
+2007	"IN_QSE"				
+2007	"Q3"	"category"	"SKIN_COLOR"	1	"{'A': 'white', 'B': 'biracial', 'C': 'black', 'D': 'asian', 'E': 'indian'}"
+2007	"Q5"	"category"	"MARITAL_STATUS"	1	
+2007	"Q15"	"category"	"QTY_LIVING_TOGETHER"	1	
+2007	"Q16"	"category"	"QTY_CHILDREN"	1	
+2007	"Q17"	"category"	"FATHER_SCHOOLING"	1	"{'A': 'A-didnt_go_to_school', 'B': 'B-primary_education', 'C': 'C-elementary_school', 'D': 'D-incomplete_secondary_school', 'E': 'E-complete_secondary_school', 'F': 'F-incomplete_higher_education', 'G': 'G-complete_higher_education', 'H': 'H-postgraduate', 'I': 'I-unknown'}"
+2007	"Q18"	"category"	"MOTHER_SCHOOLING"	1	"{'A': 'A-didnt_go_to_school', 'B': 'B-primary_education', 'C': 'C-elementary_school', 'D': 'D-incomplete_secondary_school', 'E': 'E-complete_secondary_school', 'F': 'F-incomplete_higher_education', 'G': 'G-complete_higher_education', 'H': 'H-postgraduate', 'I': 'I-unknown'}"
+2007	"Q73"	"category"	"ELEMENTARY_SCHOOL"	1	
+2007	"Q76"	"category"	"SECONDARY_SCHOOL_1"	1	"{'A': 'daytime', 'B': 'both', 'C': 'nighttime', 'D': 'both'}"
+2007	"Q77"	"category"	"SECONDARY_SCHOOL_2"	1	"{'A': 'public', 'B': 'both', 'C': 'private', 'D': 'both', 'E': 'public', 'F': 'both'}"
+2007	"Q78"	"category"	"SECONDARY_SCHOOL_3"	1	"{'A': 'normal', 'B': 'adult', 'C': 'normal'}"
+2007	"Q79"	"category"	"STUDIED_FOREIGN_LANGUAGE"	1	
+2007	"Q80"	"category"	"STUDIED_COMPUTING"	1	
+2007	"Q82"	"category"	"STUDIED_MUSIC_OR_ARTS"	1	
+2007	"Q83"	"category"	"PRACTICED_SPORT"	1	
+2007	"Q81"	"category"	"STUDIED_PREP_COURSE"	1	
+2007	"Q85"	"category"	"READINGS_1"	1	
+2007	"Q86"	"category"	"READINGS_2"	1	
+2007	"Q87"	"category"	"READINGS_3"	1	
+2007	"Q88"	"category"	"READINGS_4"	1	
+2007	"Q89"	"category"	"READINGS_5"	1	
+2007	"Q175"	"category"	"MAT_OF_INTEREST_1"		
+2007	"Q176"	"category"	"MAT_OF_INTEREST_2"		
+2007	"Q177"	"category"	"MAT_OF_INTEREST_3"		
+2007	"Q178"	"category"	"MAT_OF_INTEREST_4"		
+2007	"Q179"	"category"	"MAT_OF_INTEREST_5"		
+2007	"Q180"	"category"	"MAT_OF_INTEREST_6"		
+2007	"Q181"	"category"	"MAT_OF_INTEREST_7"		
+2007	"Q182"	"category"	"MAT_OF_INTEREST_8"		
+2007	"Q183"	"category"	"MAT_OF_INTEREST_9"		
+2007	"Q184"	"category"	"MAT_OF_INTEREST_10"		
+2007	"Q185"	"category"	"MAT_OF_INTEREST_11"		
+2007	"Q186"	"category"	"MAT_OF_INTEREST_12"		
+2007	"Q43"	"category"	"WORKED_WHILE_STUDYING"	1	
+2007	"Q44"	"category"	"WORKING_HOURS_PER_WEEK"	1	
+2007	"Q206"	"category"	"CURRENTY_PREP_COURSE"	1	"{'A': 'yes', 'B': 'no'}"
+2007	"Q208"	"category"	"CURRENTLY_FOREIGN_LANGUAGE"	1	
+2007	"Q209"	"category"	"CURRENTLY_COMPUTING"	1	
+2007	"Q47"	"category"	"WORKING_NOW"	1	
+2007	"Q23"	"category"	"FAMILY_INCOME"	1	"{'A': 'A_1_MW_or_less', 'B': 'B_1_to_2_MW', 'C': 'C_2_to_5_MW', 'D': 'D_5_to_10_MW', 'E': 'E_10_to_30_MW', 'F': 'F_30_to_50_MW', 'G': 'G_50+_MW', 'H': 'H_no_income'}"
+2007	"Q37"	"category"	"TAP_WATER"	1	"{'A': 'yes', 'B': 'no'}"
+2007	"Q38"	"category"	"ELECTRIFIED_HOME"	1	"{'A': 'yes', 'B': 'no'}"
+2008	"NU_ANO"	"category"	"YEAR"		
+2008	"TP_SEXO"	"category"			
+2008	"CO_MUNICIPIO_RESIDENCIA"	"object"	"CODMUNIC_INSC"		
+2008	"NO_MUNICIPIO_RESIDENCIA"		"DS_CIDADE"	1	
+2008	"TP_PRESENCA"	"int"	"IN_PRESENCA"	1	
+2008	"VL_PERC_COMP1"			1	
+2008	"VL_PERC_COMP2"			1	
+2008	"VL_PERC_COMP3"			1	
+2008	"VL_PERC_COMP4"			1	
+2008	"VL_PERC_COMP5"			1	
+2008	"NU_NOTA_OBJETIVA"		"MC_SCORE"	1	
+2008	"TP_STATUS_REDACAO"	"category"	"IN_SITUACAO"	1	
+2008	"NU_NOTA_COMP1"		"NU_NOTA_REDACAO_COMP1"	1	
+2008	"NU_NOTA_COMP2"		"NU_NOTA_REDACAO_COMP2"	1	
+2008	"NU_NOTA_COMP3"		"NU_NOTA_REDACAO_COMP3"	1	
+2008	"NU_NOTA_COMP4"		"NU_NOTA_REDACAO_COMP4"	1	
+2008	"NU_NOTA_COMP5"		"NU_NOTA_REDACAO_COMP5"	1	
+2008	"NU_NOTA_REDACAO"		"ESSAY_SCORE"		
+2008	"IN_QSE"			1	
+2008	"Q3"	"category"	"SKIN_COLOR"	1	"{'A': 'white', 'B': 'biracial', 'C': 'black', 'D': 'asian', 'E': 'indian'}"
+2008	"Q5"	"category"	"MARITAL_STATUS"	1	
+2008	"Q15"	"category"	"QTY_LIVING_TOGETHER"	1	
+2008	"Q16"	"category"	"QTY_CHILDREN"	1	
+2008	"Q17"	"category"	"FATHER_SCHOOLING"	1	"{'A': 'A-didnt_go_to_school', 'B': 'B-primary_education', 'C': 'C-elementary_school', 'D': 'D-incomplete_secondary_school', 'E': 'E-complete_secondary_school', 'F': 'F-incomplete_higher_education', 'G': 'G-complete_higher_education', 'H': 'H-postgraduate', 'I': 'I-unknown'}"
+2008	"Q18"	"category"	"MOTHER_SCHOOLING"	1	"{'A': 'A-didnt_go_to_school', 'B': 'B-primary_education', 'C': 'C-elementary_school', 'D': 'D-incomplete_secondary_school', 'E': 'E-complete_secondary_school', 'F': 'F-incomplete_higher_education', 'G': 'G-complete_higher_education', 'H': 'H-postgraduate', 'I': 'I-unknown'}"
+2008	"Q73"	"category"	"ELEMENTARY_SCHOOL"	1	
+2008	"Q76"	"category"	"SECONDARY_SCHOOL_1"	1	"{'A': 'daytime', 'B': 'both', 'C': 'nighttime', 'D': 'both'}"
+2008	"Q77"	"category"	"SECONDARY_SCHOOL_2"	1	"{'A': 'public', 'B': 'both', 'C': 'private', 'D': 'both', 'E': 'public', 'F': 'both'}"
+2008	"Q78"	"category"	"SECONDARY_SCHOOL_3"	1	"{'A': 'normal', 'B': 'adult', 'C': 'normal'}"
+2008	"Q79"	"category"	"STUDIED_FOREIGN_LANGUAGE"	1	
+2008	"Q80"	"category"	"STUDIED_COMPUTING"	1	
+2008	"Q82"	"category"	"STUDIED_MUSIC_OR_ARTS"	1	
+2008	"Q83"	"category"	"PRACTICED_SPORT"	1	
+2008	"Q81"	"category"	"STUDIED_PREP_COURSE"	1	
+2008	"Q85"	"category"	"READINGS_1"	1	
+2008	"Q86"	"category"	"READINGS_2"	1	
+2008	"Q87"	"category"	"READINGS_3"	1	
+2008	"Q88"	"category"	"READINGS_4"	1	
+2008	"Q89"	"category"	"READINGS_5"	1	
+2008	"Q175"	"category"	"MAT_OF_INTEREST_1"		
+2008	"Q176"	"category"	"MAT_OF_INTEREST_2"		
+2008	"Q177"	"category"	"MAT_OF_INTEREST_3"		
+2008	"Q178"	"category"	"MAT_OF_INTEREST_4"		
+2008	"Q179"	"category"	"MAT_OF_INTEREST_5"		
+2008	"Q180"	"category"	"MAT_OF_INTEREST_6"		
+2008	"Q181"	"category"	"MAT_OF_INTEREST_7"		
+2008	"Q182"	"category"	"MAT_OF_INTEREST_8"		
+2008	"Q183"	"category"	"MAT_OF_INTEREST_9"		
+2008	"Q184"	"category"	"MAT_OF_INTEREST_10"		
+2008	"Q185"	"category"	"MAT_OF_INTEREST_11"		
+2008	"Q186"	"category"	"MAT_OF_INTEREST_12"		
+2008	"Q43"	"category"	"WORKED_WHILE_STUDYING"	1	
+2008	"Q44"	"category"	"WORKING_HOURS_PER_WEEK"	1	
+2008	"Q206"	"category"	"CURRENTY_PREP_COURSE"	1	"{'A': 'yes', 'B': 'no'}"
+2008	"Q208"	"category"	"CURRENTLY_FOREIGN_LANGUAGE"	1	
+2008	"Q209"	"category"	"CURRENTLY_COMPUTING"	1	
+2008	"Q47"	"category"	"WORKING_NOW"	1	
+2008	"Q23"	"category"	"FAMILY_INCOME"	1	"{'A': 'A_1_MW_or_less', 'B': 'B_1_to_2_MW', 'C': 'C_2_to_5_MW', 'D': 'D_5_to_10_MW', 'E': 'E_10_to_30_MW', 'F': 'F_30_to_50_MW', 'G': 'G_50+_MW', 'H': 'H_no_income'}"
+2008	"Q37"	"category"	"TAP_WATER"	1	"{'A': 'yes', 'B': 'no'}"
+2008	"Q38"	"category"	"ELECTRIFIED_HOME"	1	"{'A': 'yes', 'B': 'no'}"
